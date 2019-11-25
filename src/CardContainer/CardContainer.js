@@ -3,9 +3,9 @@ import './CardContainer.css'
 
 const CardContainer = () => {
   return (
-    <aside>
+    <main>
       This is the container to show cards.
-    </aside>
+    </main>
   )
 }
 

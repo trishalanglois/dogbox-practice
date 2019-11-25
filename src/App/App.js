@@ -11,6 +11,10 @@ class App extends Component {
     }
   }
 
+  pupdateInfo = (dogInfo) => {
+    this.setState({dogs: dogInfo});
+  }
+
   render() {
     return (
       <div>

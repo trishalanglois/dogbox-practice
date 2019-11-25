@@ -1,0 +1,32 @@
+* {
+  /* border: 1px solid red; */
+}
+
+aside {
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+div {
+  text-align: left;
+
+}
+
+button {
+  margin-top: 2em;
+  background-color: magenta;
+  font-size: 1.25em;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: .45em;
+  margin-right: 50px;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid magenta;
+}
